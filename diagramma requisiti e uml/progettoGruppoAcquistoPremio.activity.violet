@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_17" class="java.beans.XMLDecoder">
+ <object class="com.horstmann.violet.product.diagram.activity.ActivityDiagramGraph">
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ScenarioStartNode" id="ScenarioStartNode0"/>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double0">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double0"/>
+      <double>203.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>203.0</double>
+     <double>0.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode0">
+    <void property="name">
+     <void property="text">
+      <string>recupera la lista premi</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double1">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>136.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>46.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>136.0</double>
+     <double>46.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode1">
+    <void property="name">
+     <void property="text">
+      <string>riceve input da utente</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double2">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double2"/>
+      <double>131.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double2"/>
+      <double>211.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>131.0</double>
+     <double>211.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode2">
+    <void property="name">
+     <void property="text">
+      <string>acquisisce costo 
+premio</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double3">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double3"/>
+      <double>142.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double3"/>
+      <double>304.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>142.0</double>
+     <double>304.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode3">
+    <void property="name">
+     <void property="text">
+      <string>acquisisce punti
+ fedeltà utente</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double4">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double4"/>
+      <double>153.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double4"/>
+      <double>398.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>153.0</double>
+     <double>398.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.DecisionNode" id="DecisionNode0">
+    <void id="MultiLineString0" property="condition"/>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double5">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double5"/>
+      <double>164.48634307997824</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double5"/>
+      <double>501.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>164.48634307997824</double>
+     <double>501.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode4">
+    <void property="name">
+     <void property="text">
+      <string>visualizza messaggio
+d&apos;errore</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double6">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double6"/>
+      <double>562.2717132202972</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double6"/>
+      <double>1135.775338457735</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>562.2717132202972</double>
+     <double>1135.775338457735</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode5">
+    <void property="name">
+     <void property="text">
+      <string>chiede conferma
+acquisto</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double7">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double7"/>
+      <double>146.59692495035375</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double7"/>
+      <double>587.7108230962326</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>146.59692495035375</double>
+     <double>587.7108230962326</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.DecisionNode" id="DecisionNode1">
+    <void property="condition">
+     <object idref="MultiLineString0"/>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double8">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double8"/>
+      <double>161.92137475537274</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double8"/>
+      <double>683.9826349864667</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>161.92137475537274</double>
+     <double>683.9826349864667</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode6">
+    <void property="name">
+     <void property="text">
+      <string>scala punti fedeltà 
+all&apos; Utente</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double9">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double9"/>
+      <double>142.89406091532922</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double9"/>
+      <double>774.3350618866299</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>142.89406091532922</double>
+     <double>774.3350618866299</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode7">
+    <void property="name">
+     <void property="text">
+      <string>decrementa 
+quantitàDisponibile
+di Premio</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double10">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double10"/>
+      <double>139.94802534031564</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double10"/>
+      <double>872.3363883968312</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>139.94802534031564</double>
+     <double>872.3363883968312</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.DecisionNode" id="DecisionNode2">
+    <void property="condition">
+     <object idref="MultiLineString0"/>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double11">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double11"/>
+      <double>158.35375341036462</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double11"/>
+      <double>979.040578942057</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>158.35375341036462</double>
+     <double>979.040578942057</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode8">
+    <void property="name">
+     <void property="text">
+      <string>visualizza messaggio 
+di conferma all&apos;utente</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double12">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double12"/>
+      <double>127.43436842029385</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double12"/>
+      <double>1095.1231837172886</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>127.43436842029385</double>
+     <double>1095.1231837172886</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode9">
+    <void property="name">
+     <void property="text">
+      <string>elimina la voce dal
+database</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double13">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double13"/>
+      <double>457.5202894710285</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double13"/>
+      <double>969.716129137038</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>457.5202894710285</double>
+     <double>969.716129137038</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ScenarioEndNode" id="ScenarioEndNode0"/>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double14">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double14"/>
+      <double>193.27313840043536</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double14"/>
+      <double>1193.5302382975387</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>193.27313840043536</double>
+     <double>1193.5302382975387</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode10">
+    <void property="name">
+     <void property="text">
+      <string>messaggio di
+annullamento</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double15">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double15"/>
+      <double>4.45969249503537</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double15"/>
+      <double>1153.8121193951986</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>4.45969249503537</double>
+     <double>1153.8121193951986</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityNode" id="ActivityNode11">
+    <void property="name">
+     <void property="text">
+      <string>invia la lista alla GUI </string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double16">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double16"/>
+      <double>141.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double16"/>
+      <double>130.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>141.0</double>
+     <double>130.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode1"/>
+   <object idref="ActivityNode2"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode2"/>
+   <object idref="ActivityNode3"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="middleLabel">
+     <string>costoPremio&gt;puntiUtente</string>
+    </void>
+   </object>
+   <object idref="DecisionNode0"/>
+   <object idref="ActivityNode4"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="middleLabel">
+     <string>puntiUtente&gt;costoPremio</string>
+    </void>
+   </object>
+   <object idref="DecisionNode0"/>
+   <object idref="ActivityNode5"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode5"/>
+   <object idref="DecisionNode1"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode3"/>
+   <object idref="DecisionNode0"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="middleLabel">
+     <string>conferma</string>
+    </void>
+   </object>
+   <object idref="DecisionNode1"/>
+   <object idref="ActivityNode6"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode6"/>
+   <object idref="ActivityNode7"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode7"/>
+   <object idref="DecisionNode2"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="middleLabel">
+     <string>quantitàDisponibile&gt;0</string>
+    </void>
+   </object>
+   <object idref="DecisionNode2"/>
+   <object idref="ActivityNode8"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="middleLabel">
+     <string>quantitàDisponibile=0</string>
+    </void>
+   </object>
+   <object idref="DecisionNode2"/>
+   <object idref="ActivityNode9"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode8"/>
+   <object idref="ScenarioEndNode0"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="middleLabel">
+     <string>annulla</string>
+    </void>
+   </object>
+   <object idref="DecisionNode1"/>
+   <object idref="ActivityNode10"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode9"/>
+   <object idref="ActivityNode8"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ScenarioStartNode0"/>
+   <object idref="ActivityNode0"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode0"/>
+   <object idref="ActivityNode11"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode11"/>
+   <object idref="ActivityNode1"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode4"/>
+   <object idref="ScenarioEndNode0"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.product.diagram.activity.ActivityTransitionEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ActivityNode10"/>
+   <object idref="ScenarioEndNode0"/>
+  </void>
+ </object>
+</java>

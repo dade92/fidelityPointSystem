@@ -1,0 +1,20 @@
+i diagrammi uml sono nella cartella "uml";i file sono 
+stati tutti esportati come file immagine.
+Ë presente anche un file "credenziali utenti di prova.txt" dove sono scritti tutti gli utenti 
+correntemente registrati nel sistema. 
+per il testing sono state testate le classi utilizzate quando viene fatto il login da parte
+di un Cliente/Societ‡Partner,quindi quelle classi che gestiscono l'accesso a file, il sistema 
+per la gestione degli utenti, il sistema di ticketing e la factory degli utenti.
+la classe AvviaSistema avvia l'applicazione. le classi AvviaServerPremi e AvviaServerOfferte 
+avviano i server che permettono ai sistemi terzi di societ‡ partner di connettersi da remoto.
+AvviaSistemaTicketing Ë la classe che avvia il server del sistema di ticketing (fondamentale
+per le operazioni effettuate dall'amministratore e dal Cliente che vuole acquistare un biglietto
+aereo),infatti Ë coinvolta nel login dell'amministratore (in cui AmministratoreFrame cerca subito 
+di connettersi al server) e quando il Cliente clicca sul JButton "acquista biglietto".
+Nota:consiglio di avviare prima il sistema di ticketing,cosi non si generano errori durante i
+vari login.
+le classi SistemaSociet‡PartnerPremi/SistemaSociet‡PartnerOfferte invece contengono un main dummy
+che chiama due metodi remoti per mostrare il funzionamento dell'applicazione.
+riguardo l'applicazione:ogni volta che si fa il login si apre un nuovo JFrame;dopo aver completato
+le operazioni,basta semplicemente chiudere la finestra per eseguire il logout e aggiornare i
+file.

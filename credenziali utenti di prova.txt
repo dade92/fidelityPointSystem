@@ -1,0 +1,35 @@
+Amministratore:
+id:123
+password:admin
+
+Addetto al supporto:
+id:125
+password:helpdesk
+
+Società partner premi:
+id:127
+password:società
+
+Società partner premi:
+id:133
+password:società
+
+Società partner offerte:
+id:138
+password:società
+
+Società partner offerte:
+id:141
+password:società
+
+Cliente:
+id:143
+password:password
+
+Società partner offerte:
+id:145
+password:società
+
+Cliente:
+id:148
+password:password
